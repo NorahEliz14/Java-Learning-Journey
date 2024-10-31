@@ -1,0 +1,16 @@
+\\Product of Two Numbers
+import java.util.*;
+public class ProductOfTwoNumbers {
+
+    public static void main(String[] args) {
+
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter num1:");
+        int a=sc.nextInt();
+        System.out.println("Enter num2:");
+        int b=sc.nextInt();
+        int product=a*b;
+        System.out.println("Product of two numbers:" +product);
+        sc.close();
+    }
+}

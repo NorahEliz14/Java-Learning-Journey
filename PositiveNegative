@@ -1,0 +1,17 @@
+\\To check number is positive or negative
+public class PositiveNegative {
+
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter number1:");
+        int num=sc.nextInt();
+        if(num>=0){
+        System.out.println("POSITIVE");
+        }
+        else{
+            System.out.println("NEGATIVE");
+        }
+        }
+        
+    }

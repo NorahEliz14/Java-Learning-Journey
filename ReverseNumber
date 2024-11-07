@@ -1,0 +1,13 @@
+\\To print reverse of a number
+public class ReverseNumber {
+
+    public static void main(String[] args) {
+        int lastdigit;
+        int number=12345;
+        while(number>0){
+            lastdigit=number%10;
+            System.out.print(lastdigit);
+            number=number/10;
+        }
+}
+}

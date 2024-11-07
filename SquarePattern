@@ -1,0 +1,12 @@
+\\To print a Suare Pattern using For loop
+import java.util.*;
+public class SquarePattern {
+
+    public static void main(String[] args) {
+
+        for(int lines=0;lines<=4;lines++){
+            System.out.println("****");  
+        }
+        
+    }
+}

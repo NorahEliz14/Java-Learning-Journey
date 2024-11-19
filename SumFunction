@@ -1,0 +1,23 @@
+\\Sum using Function with parameters
+import java.util.*;
+public class JavaBasics {
+
+    public static int Sum(int a,int b){
+
+        int sum=a+b;
+        return sum;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter number1:");
+        int a=sc.nextInt();
+        System.out.println("Enter number2:");
+        int b=sc.nextInt();
+        int sum=Sum(a,b);   
+        System.out.println("Sum=" +sum);
+}
+}
+
+
